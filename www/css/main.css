@@ -66,9 +66,37 @@ footer {
     border-color: #4d4e53;
     border-style: solid;
     border-width: 2px;
+
+    padding: 20px;
 }
 
 .foxart>img {
     width: 50%;
     height: 50%;
+}
+
+
+.table {
+    align-items: center;
+    align-content: center;
+}
+
+.table>table {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: table;
+}
+
+tr td {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+p {
+    text-align: left;
+    text-indent: 2%;
+    margin: 5px;
+    padding: 2px;
 }
