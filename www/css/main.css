@@ -51,9 +51,9 @@ nav a {
     color: white;
 }
 
-nav a :hover {
-    background-color: #4d4e53;
-    color: #fc5366;
+nav li :hover {
+    background-color: #fc5366aa;
+    color: #4d4e53;
 }
 
 header td {
