@@ -14,26 +14,33 @@ body {
 header {
     color: black;
     background-color: wheat;
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+nav {
+    background-color: wheat;
+    color: black;
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
 }
 
 /*==========================================================*/
 main {
     color: black;
     background-color: wheat;
-    overflow: hidden;
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
 }
 
 article {
-    display: block;
-    float: left;
     background-color: white;
-    width: 80%;
-}
-
-aside {
-    background-color: gray;
-    color: white;
-    float: right;
 }
 
 section {
@@ -41,7 +48,25 @@ section {
 }
 
 /*==========================================================*/
+
+aside {
+    background-color: wheat;
+    color: black;
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+
+/*==========================================================*/
 footer {
+    display: block;
     color: darkslategray;
     background-color: darkgray;
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
 }
