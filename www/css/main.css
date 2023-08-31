@@ -55,6 +55,18 @@ nav a :hover {
     color: #fc5366;
 }
 
+header td {
+    width: 50%;
+}
+
+nav li a {
+    width: 25%;
+}
+
+header table {
+    width: 100%;
+}
+
 .nav_left {
     width: 25%;
 }
