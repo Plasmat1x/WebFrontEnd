@@ -1,0 +1,48 @@
+* {
+    margin: 5px;
+    border-radius: 25px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+body {
+    background-color: aqua;
+}
+
+/*==========================================================*/
+header {
+    color: black;
+    background-color: wheat;
+}
+
+/*==========================================================*/
+main {
+    color: black;
+    background-color: wheat;
+    overflow: hidden;
+}
+
+article {
+    display: block;
+    float: left;
+    background-color: white;
+    width: 80%;
+}
+
+aside {
+    display: block;
+    float: right;
+    width: 20%;
+    background-color: white;
+}
+
+section {
+    background-color: azure;
+}
+
+/*==========================================================*/
+footer {
+    color: darkslategray;
+    background-color: darkgray;
+}
