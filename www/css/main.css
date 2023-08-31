@@ -1,102 +1,60 @@
 body {
-    background: url("../img/bg/2.jpg") no-repeat center top / cover;
+    background: url("../img/bg/2.jpg") no-repeat fixed center top / cover;
 }
 
-main {
-    margin: 5px;
-    color: black;
-}
-
-header {
-    background-color: #514e53;
-    border-radius: 25px;
-}
-
-nav {
-    height: 128px;
-}
-
-nav>div {
-    float: left;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: right;
-    padding: 2px;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-
-    border-radius: 20px;
-    background-color: white;
-    width: 120px;
-}
-
-li a:hover {
-    background-color: #fc5366;
-}
-
-footer {
+header,
+footer,
+.sidebar_section {
     background-color: #4d4e53;
-    color: white;
-    text-align: center;
-    table-layout: auto;
     border-radius: 25px;
-
+    border-color: #fc5366;
+    border-style: solid;
+    border-width: 2px;
+    padding: 25px;
+    color: white;
 }
 
 .content {
-    background-color: #fc5366;
-    border-radius: 25px;
-    text-align: center;
-    margin: 5px;
-
     border-color: #4d4e53;
     border-style: solid;
     border-width: 2px;
-
     padding: 20px;
+    color: black;
+    background-color: #fc5366;
+    border-radius: 25px;
+    text-align: center;
 }
 
-.foxart>img {
-    width: 50%;
-    height: 50%;
-}
-
-
-.table {
-    align-items: center;
-    align-content: center;
-}
-
-.table>table {
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    display: table;
-}
-
-tr td {
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-}
-
-p {
+main p {
     text-align: left;
-    text-indent: 2%;
-    margin: 5px;
-    padding: 2px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    width: 5em;
+    padding: 10px;
+    background-color: #fc5366;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav a :hover {
+    background-color: #4d4e53;
+    color: #fc5366;
+}
+
+.nav_left {
+    width: 25%;
 }
