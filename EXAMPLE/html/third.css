@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+}
+
+table, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: 20%;
+}
+
+.main > td {
+    vertical-align: top;
+}
+
+.header > td {
+    padding: 20px;
+}
+
+div {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+div > img {
+    width: 150px;
+    float: left;
+    clear: both;
+}
+
+.logo {
+    width: 60%;
+}
+
+.header {
+    background-color:bisque;
+}
+
+.footer {
+    background-color:burlywood;
+}
+

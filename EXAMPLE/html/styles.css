@@ -1,0 +1,31 @@
+* {
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+} 
+
+body {
+    padding: 25px;
+    /* background: linear-gradient(rgb(236, 243, 14), rgb(243, 139, 14 ), rgb(122, 243, 14 )); */
+    background: linear-gradient(rgba(255, 255, 255 , 0.35), rgba(255, 255, 255 , 0.35 )), url(images/mountains.jpg) center/cover fixed;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.brown-paragraph {
+    color: brown;
+}
+
+p {
+    color: rgb(243, 59, 14 );
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-style: oblique;
+    
+}

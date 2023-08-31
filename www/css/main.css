@@ -4,6 +4,7 @@ body {
 
 main {
     margin: 5px;
+    color: black;
 }
 
 header {
@@ -61,4 +62,13 @@ footer {
     border-radius: 25px;
     text-align: center;
     margin: 5px;
+
+    border-color: #4d4e53;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.foxart>img {
+    width: 50%;
+    height: 50%;
 }
