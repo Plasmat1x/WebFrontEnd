@@ -1,0 +1,40 @@
+body {
+    color: black;
+}
+
+#sidebar {
+    background-color: #ddd;
+    float: left;
+    width: 150px;
+}
+
+#main {
+    background-color: #eee;
+    height: 200px;
+    margin-left: 170px;
+    /* 150px (ширина сайдбара) + 10px + 10px (2 отступа) */
+}
+
+div {
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 80px;
+}
+
+#header {
+    background-color: #ccc;
+}
+
+#sidebar {
+    background-color: #ddd;
+}
+
+#main {
+    background-color: #eee;
+    height: 200px;
+}
+
+#footer {
+    background-color: #ccc;
+}

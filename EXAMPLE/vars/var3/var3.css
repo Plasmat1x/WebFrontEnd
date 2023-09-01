@@ -1,0 +1,29 @@
+#wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+}
+
+#header {
+    background-color: blue;
+    color: white;
+}
+
+#footer {
+    background-color: blue;
+    color: lightgrey;
+}
+
+#main {
+    background-color: white;
+    color: black;
+    width: 75%;
+    margin: 0 auto;
+}
