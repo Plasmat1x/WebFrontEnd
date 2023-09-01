@@ -37,6 +37,10 @@ main {
     border-color: black;
     border-width: 1px;
     border-style: solid;
+
+    float: left;
+    margin: 0 auto;
+    width: 64%;
 }
 
 article {
@@ -56,6 +60,10 @@ aside {
     border-color: black;
     border-width: 1px;
     border-style: solid;
+
+    float: left;
+    margin: 0 auto;
+    width: 34%;
 }
 
 
@@ -69,4 +77,6 @@ footer {
     border-color: black;
     border-width: 1px;
     border-style: solid;
+
+    margin: 0 auto;
 }
