@@ -1,0 +1,64 @@
+#wrapper {
+    max-width: 1200;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: lightgray;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+#header,
+#footer {
+    background-color: blue;
+    color: white;
+}
+
+#footer p,
+#footer ul {
+    display: inline-block;
+}
+
+#header #logo,
+#header #prompt,
+#header nav,
+#header #menu li {
+    display: inline-block;
+}
+
+#main {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+#leftbar,
+#content,
+#rightbar {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#leftbar,
+#rightbar {
+    background-color: lightgray;
+    width: 20%;
+}
+
+#content {
+    width: 55%;
+    background-color: white;
+}
+
+article {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+body {
+    background-color: white;
+}
