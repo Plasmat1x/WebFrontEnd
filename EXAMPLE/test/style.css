@@ -1,0 +1,39 @@
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+}
+
+#name,
+header nav,
+#logo,
+header nav ul li,
+main,
+#sidebar {
+    display: inline-block;
+}
+
+main {
+    width: 80%;
+}
+
+div,
+header,
+footer,
+main,
+nav {
+    border: 1px solid black;
+    margin: 2px auto;
+    padding: 2px 8px;
+}
+
+main,
+footer,
+header,
+#sidebar {
+    background-color: darkgray;
+    color: black
+}
