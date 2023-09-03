@@ -1,0 +1,59 @@
+.parent {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexbox {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent > div, .flexbox > div {
+    width: 100px;
+    height: 100px;
+}
+
+.block1 {
+    background-color:coral;
+}
+
+.block2 {
+    background-color:darkcyan;
+}
+
+.block3 {
+    background-color:darkolivegreen;
+}
+
+.block4 {
+    background-color:blueviolet;
+}
+
+.block-1 {
+    background-color:coral;
+    flex-shrink: 1;
+}
+
+.block-2 {
+    background-color:darkcyan;
+    flex-shrink: 1;
+}
+
+.block-3 {
+    background-color:darkolivegreen;
+    flex-shrink: 1;
+}
+
+.block-4 {
+    background-color:blueviolet;
+    flex-shrink: 1;
+}
