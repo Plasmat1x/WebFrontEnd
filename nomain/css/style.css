@@ -1,5 +1,12 @@
 .section {
     padding: 10px;
     border: 1px solid black;
-    background-color: wheat;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.container {
+    background-color: #ffffff;
 }
