@@ -1,0 +1,35 @@
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    height: 2em;
+    width: 4em;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+#sidebar {
+    justify-self: end;
+}
