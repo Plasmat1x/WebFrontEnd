@@ -14,9 +14,6 @@ body {
     grid-column: 1/4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-    position: sticky;
-    top: 0px;
 }
 
 .logo {
@@ -40,8 +37,6 @@ body {
 .aside-left {
     grid-column: 1;
     grid-row: 2/4;
-    position: sticky;
-    top: 70px;
 
     overflow: hidden;
 
@@ -53,10 +48,6 @@ body {
     grid-column: 3/4;
     grid-row: 2/4;
     overflow-y: scroll;
-    position: sticky;
-    top: 70px;
-
-    overflow: hidden;
 
     display: flex;
     flex-direction: column;
@@ -65,7 +56,6 @@ body {
 .main {
     grid-column: 2/3;
     grid-row: 2/4;
-    overflow: hidden;
 }
 
 .menu {

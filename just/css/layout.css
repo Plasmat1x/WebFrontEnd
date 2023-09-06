@@ -1,0 +1,17 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.content {
+    grid-column: 2/3;
+}
+
+.strip {
+    grid-column: 3/4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
