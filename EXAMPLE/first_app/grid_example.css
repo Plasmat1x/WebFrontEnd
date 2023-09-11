@@ -1,0 +1,98 @@
+* {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 500px auto;
+    grid-gap: 10px;
+    background-color: black;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+a {
+    text-decoration: none;
+    color: #d6d6d6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.year {
+    font-size: 1.2em;
+    color: darkolivegreen;
+}
+
+.img-fluid {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    grid-column: span 12;
+    background-color: crimson;
+}
+
+header > div {
+    margin: 0 20px;
+}
+
+header > div:nth-child(3) {
+    margin-left: auto;
+}
+
+nav {
+    grid-column: span 2;
+    background-color: darkgoldenrod;
+}
+
+main {
+    grid-column: span 8;
+    background-color: darkolivegreen;
+}
+
+.card {
+    background-color: rgb(69, 85, 42);
+    margin-bottom: 10px;
+}
+
+aside {
+    grid-column: span 2;
+    background-color: lightslategrey;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: darkmagenta;
+}

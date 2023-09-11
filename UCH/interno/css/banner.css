@@ -1,0 +1,17 @@
+.bannerbg {
+    background: url("../img/BannerBG.jpg")lightgray 50% / cover no-repeat;
+    /*width: 1920px*/
+    height: 1042px;
+    flex-shrink: 0;
+    border-radius: 0 0 0 291px;
+    overflow: auto;
+    display: flex;
+}
+
+.bannerbg .intro {
+    width: 567px;
+}
+
+.bannerbg>.wrap {
+    align-self: center;
+}

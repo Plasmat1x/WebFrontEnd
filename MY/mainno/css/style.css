@@ -1,0 +1,29 @@
+#header {
+    background-color: blue;
+    color: white;
+}
+
+#main {
+    background-color: white;
+    color: black;
+}
+
+#footer {
+    background-color: blue;
+    color: darkgray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    background-color: gray;
+}
+
+header .group {
+    background-color: gray;
+    border-radius: 10px;
+}
