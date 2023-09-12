@@ -1,0 +1,40 @@
+.counter {
+    background-color: #F4F0EC;
+    height: 457px;
+    flex-shrink: 0;
+}
+
+.counter .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter .content {
+    display: flex;
+    width: 1082px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 76px;
+
+    margin: 150px 0;
+}
+
+.counter .cb {
+    display: flex;
+    width: 192px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.counter .display1 {
+    color: #CDA274;
+}
+
+.counter hr {
+    width: 1px;
+    height: 130px;
+    background-color: #CDA274;
+}

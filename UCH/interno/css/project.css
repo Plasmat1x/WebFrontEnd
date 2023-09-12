@@ -14,3 +14,73 @@
     gap: 8px;
     text-align: center;
 }
+
+.project .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
+
+.project .row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 104px;
+}
+
+.project .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+}
+
+.project .content {
+    width: 619px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project .description {
+    display: flex;
+    width: 217px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.project .img {
+    width: 636px;
+    height: 548px;
+    flex-shrink: 0;
+}
+
+.project img {
+    width: 636px;
+    height: 548px;
+    flex-shrink: 0;
+}
+
+.project .p1 {
+    border-radius: 0 70px 0 0;
+    overflow: hidden;
+}
+
+.project .p2 {
+    border-radius: 70px 0 0 0;
+    overflow: hidden;
+}
+
+.project .p3 {
+    border-radius: 0 0 70px 0;
+    overflow: hidden;
+}
+
+.project .p4 {
+    border-radius: 0 0 0 70px;
+    overflow: hidden;
+}
