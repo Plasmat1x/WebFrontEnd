@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    justify-content: flex-start;
+    color: white;
+    gap: 5em;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+}
+
+.header a :hover {
+    background-color: white;
+    color: black;
+}
+
+.header a {
+    color: white;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    margin: 0 0;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.sidebar {
+    background-color: darkgray;
+    overflow-y: scroll;
+}
+
+.main {
+    overflow-y: scroll;
+}

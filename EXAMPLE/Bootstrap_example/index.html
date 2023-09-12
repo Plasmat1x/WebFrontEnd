@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-2 bg-primary text-white">col bg-primary text-white</div>
+            <div class="col-12 col-md-6 col-lg-3 bg-success text-white">col bg-success text-white</div>
+            <div class="col-12 col-md-3 col-lg-2 bg-warning text-white">col bg-warning text-white</div>
+            <div class="col-12 col-md-6 col-lg-3 bg-danger text-white">col bg-danger text-white</div>
+            <div class="col-12 col-md-3 col-lg-2 bg-secondary text-white">col bg-secondary text-white</div>
+        </div>
+
+        <div class="row mt-5 row-cols-md-6 row-cols-1">
+            <div class="col bg-primary text-white">col bg-primary text-white</div>
+            <div class="col bg-success text-white">col bg-success text-white</div>
+            <div class="col-6 bg-warning text-white">col bg-warning text-white</div>
+            <div class="col bg-danger text-white">col bg-danger text-white</div>
+            <div class="col-3 bg-secondary text-white">col bg-secondary text-white</div>
+            <div class="col bg-primary text-white">col bg-primary text-white</div>
+            <div class="col bg-success text-white">col bg-success text-white</div>
+            <div class="col-12 bg-warning text-white">col bg-warning text-white</div>
+            <div class="col bg-danger text-white">col bg-danger text-white</div>
+            <div class="col bg-secondary text-white">col bg-secondary text-white</div>
+            <div class="col bg-danger text-white">col bg-danger text-white</div>
+            <div class="col bg-secondary text-white">col bg-secondary text-white</div>
+        </div>
+
+        <div class="row row-cols-2 row-cols-lg-4 my-5">
+            <div class="col">
+                <div class="card">
+                    <img src="images/card1.png" alt="maffin" class="card-img-top">
+                    <div class="card-body">
+                        <div class="card-title fs-4"><strong>Заголовок карточки</strong></div>
+                        <div class="card-subtitle my-2">Подзаголовок картоки</div>
+                        <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                            necessitatibus?</div>
+                        <div class="btn btn-outline-primary">Узнать больше</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Заголовок списка</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group my-1">
+                            <li class="list-group-item">Элемент 1</li>
+                            <li class="list-group-item">Элемент 2</li>
+                            <li class="list-group-item">Элемент 3</li>
+                            <li class="list-group-item">Элемент 4</li>
+                        </ul>
+                    </div>
+                    <img src="images/card3.png" alt="muffin" class="card-img-top">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/card2.png" alt="maffin" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, nam!
+                        </p>
+                        <a href="#" class="card-link">Ссылка</a>
+                    </div>
+                    <div class="card-footer">
+                        3 days ago
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">Цитата</div>
+                    <div class="card-body">
+                        <blockquote class="blockquote">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quasi?</p>
+                            <div class="blockquote-footer">
+                                Автор
+                                <cite>Стив Джобс</cite>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalWindow">Кликни, чтобы
+            увидеть модальное окно</button>
+
+        <div class="modal fade" id="modalWindow">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Заголовок модального окна</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Основное содержимое модального окна</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
