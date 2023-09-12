@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    font-family: 'REM';
+    margin: 2px 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 125%;
+    font-family: 'REM';
+    margin: 2px 0;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    font-family: 'REM';
+    margin: 2px 0;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    font-family: 'REM';
+    margin: 2px 0;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    font-family: 'REM';
+    margin: 2px 0;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    font-family: 'REM';
+    margin: 2px 0;
+}
+
+p {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'REM';
+    margin: 2px 0;
+    text-indent: 1.5rem;
+}
+
+b {
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'REM';
+}
+
+i {
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'REM';
+}
+
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    font-family: 'REM';
+    font-style: normal;
+}
+
+span {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'REM';
+    margin: 2px 0;
+}
+
+input {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 2px 0;
+}
+
+.block {
+    border-radius: 25px;
+    padding: 1rem 2rem;
+
+    background-color: #4b4e53;
+    border: 2px solid #ff5067;
+    color: #f2f2f2;
+
+    margin-bottom: 5px;
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125%;
+    font-family: 'REM';
+    font-style: normal;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #ff5067;
+    border: 2px solid #4b4e53;
+    color: #1f1f1f;
+}
+
+.button :hover {
+    background-color: #1f1f1f;
+}

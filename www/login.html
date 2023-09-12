@@ -5,27 +5,58 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+            rel="stylesheet">
+
         <link rel="stylesheet" href="css/style.css">
+
+        <style>
+            .block {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                width: 600px;
+            }
+
+            .block>.row {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: center;
+                align-items: center;
+                justify-self: center;
+                align-items: center;
+                width: 300px;
+            }
+
+            .block>.buttons {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+        </style>
     </head>
 
     <body>
-        <a href="index.html">Home</a>
+
         <div class="auth">
             <div class="block">
+                <a href="index.html" class="button">Home</a>
                 <h1>Login</h1>
-                <span>Incorrect Username or Passwrod</span>
-                <div>
-                    <p>Username</p>
+                <div class="row">
+                    <span>Username</span>
                     <input type="Username">
                 </div>
-                <div>
-                    <p>Password</p>
+                <div class="row">
+                    <span>Password</span>
                     <input type="Password">
                 </div>
 
                 <div class="buttons">
-                    <button>Login</button>
-                    <button>Signup</button>
+                    <button class="button">Login</button>
+                    <button class="button">Signup</button>
                 </div>
             </div>
         </div>
