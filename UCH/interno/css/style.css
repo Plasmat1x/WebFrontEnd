@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -10,7 +14,6 @@ h6,
     font-style: normal;
     font-weight: 400;
     line-height: 125%;
-
     margin: 0 0;
 }
 
@@ -39,18 +42,18 @@ h5 {
 }
 
 h6 {
-    color: #292F36;
-    font-family: DM Serif Display;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%;
-    /* 22.5px */
 }
 
-p {
+div {
     color: #4D5053;
     font-family: 'Jost';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 33px */
+    letter-spacing: 0.22px;
 }
 
 b {
@@ -103,16 +106,6 @@ i {
     line-height: 150%;
     /* 27px */
     letter-spacing: 0.18px;
-}
-
-.dtn {
-    color: #4D5053;
-    font-family: 'Jost';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.22px;
 }
 
 li {

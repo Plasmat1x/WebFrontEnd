@@ -1,7 +1,6 @@
-.client>.strip {
-    grid-column: 1 span 3;
+.client {
+    grid: 1 span 3;
     display: flex;
-    width: 1090.392px;
     justify-content: center;
     align-items: center;
     gap: 108px;
