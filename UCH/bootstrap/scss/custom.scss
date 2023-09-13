@@ -29,12 +29,6 @@
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";
 
-* {
-    font-family: "source sans 3";
-}
-
-body {
-    background-color: #1E252B;
-    color: #F7F7F7;
-    margin: 0;
-}
+@import "style/typography.scss";
+@import "style/colors.scss";
+@import "style/layout.scss";

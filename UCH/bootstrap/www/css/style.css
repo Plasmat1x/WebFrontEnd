@@ -5140,9 +5140,83 @@ progress {
     display: none !important; } }
 
 * {
-  font-family: "source sans 3"; }
+  font-family: "source sans 3";
+  color: #F7F7F7; }
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
+
+b {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
+
+i {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
+
+h1, .h1 {
+  font-size: 72px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
+
+h2, .h2 {
+  font-size: 60px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
+
+h3, .h3 {
+  font-size: 48px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
+
+h4, .h4 {
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
+
+h5, .h5 {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
+
+h6, .h6 {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+  margin: 0;
+  padding: 0; }
 
 body {
-  background-color: #1E252B;
-  color: #F7F7F7;
+  background-color: #1E252B; }
+
+body {
   margin: 0; }
