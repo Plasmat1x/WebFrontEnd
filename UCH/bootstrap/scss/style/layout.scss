@@ -1,3 +1,43 @@
- body {
+ .body {
      margin: 0;
+ }
+
+ .header {
+     padding: 20px 22px;
+     margin-bottom: 20px;
+ }
+
+ .block {
+     padding: 20px 20px;
+     border-radius: 18px;
+ }
+
+ .icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     align-self: center;
+     padding: 10px;
+     border-radius: 7px;
+ }
+
+ .block {
+     padding: 20px;
+     border-radius: 16px;
+ }
+
+ .layout {
+     display: grid;
+     grid-template-columns: 2fr 5fr 2fr;
+     gap: 20px;
+ }
+
+ .wrap {
+     margin: 0 20px;
+ }
+
+ .col {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
  }

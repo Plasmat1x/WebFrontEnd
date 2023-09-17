@@ -1,0 +1,73 @@
+:root {
+    --bgc0: #1E252B;
+    --bgc1: #262D34;
+    --bgc2: #2C353D;
+
+    --ac0: #FF4401;
+    --ac1: #FF6934;
+
+    --tc0: #000;
+    --tc1: #fff;
+    --tc2: #97989D;
+    --tc3: #858EAD;
+}
+
+body {
+    background-color: var(--bgc0);
+}
+
+.bg0 {
+    background-color: var(--bgc0);
+}
+
+.bg1 {
+    background-color: var(--bgc1);
+}
+
+.bg2 {
+    background-color: var(--bgc2);
+}
+
+.t0 {
+    color: var(--tc0);
+}
+
+.t1 {
+    color: var(--tc1);
+}
+
+.t2 {
+    color: var(--tc2);
+}
+
+.t3 {
+    color: var(--tc3);
+}
+
+.ta0 {
+    color: var(--ac0);
+}
+
+.ta1 {
+    color: var(--ac1);
+}
+
+.bga0 {
+    background-color: var(--ac0);
+}
+
+.bga1 {
+    background-color: var(--ac1);
+}
+
+.item {
+    background-color: var(--bgc1);
+}
+
+.item :hover {
+    background-color: var(--bgc2);
+}
+
+.header .icon :hover {
+    background-color: var(--ac0);
+}

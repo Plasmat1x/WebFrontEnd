@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PU221 Shop</title>
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+    <div class="container">
+        <header class="mb-5">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-navbar-custom">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">SHOP</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="catalog.html">Catalog</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Admin
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="catalog-editor.html">Catalog Editor</a></li>
+                          <li><a class="dropdown-item" href="#">Sales Editor</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Users Editor</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Log in</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <section class="slider mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/banner1.jpg" class="d-block w-100" alt="banner">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner2.jpg" class="d-block w-100" alt="banner">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner3.jpg" class="d-block w-100" alt="banner">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="hot-sales my-5">
+            <h3 class="hot-sales-color text-center my-2">Hot Sales</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-3">
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="images/card1.png" class="card-img-top" alt="maffin">
+                        <div class="card-body">
+                          <h5 class="card-title">Berries maffin</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="fs-5">Price: 10$</p>
+                          <a href="#" class="btn btn-primary">Add to basket</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="images/card2.png" class="card-img-top" alt="maffin">
+                        <div class="card-body">
+                          <h5 class="card-title">Strawberries maffin</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="fs-5">Price: 13$</p>
+                          <a href="#" class="btn btn-primary">Add to basket</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card">
+                        <img src="images/card3.png" class="card-img-top" alt="maffin">
+                        <div class="card-body">
+                          <h5 class="card-title">Chocolate maffin</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="fs-5">Price: 8$</p>
+                          <a href="#" class="btn btn-primary">Add to basket</a>
+                        </div>
+                      </div>
+                </div>      
+            </div>
+        </section>
+    </div>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

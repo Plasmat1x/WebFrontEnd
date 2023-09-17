@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PU221 Shop</title>
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="mb-5">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-navbar-custom">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">SHOP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="catalog.html">Catalog</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Admin
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Catalog Editor</a></li>
+                                    <li><a class="dropdown-item" href="#">Sales Editor</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Users Editor</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Log in</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <h2 class="py-3">Администрирование каталога</h2>
+        <p>
+            <a class="btn btn-info" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Добавить новый товар
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <form>
+                <div class="mb-3">
+                    <label for="goodTitle" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="goodTitle">
+                </div>
+                <div class="mb-3">
+                    <label for="goodDescription" class="form-label">Description</label>
+                    <textarea type="text" class="form-control" id="goodDescription"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="goodPrice" class="form-label">Price</label>
+                    <input type="number" class="form-control" id="goodPrice" min="1" max="1000">
+                </div>
+                <div class="mb-3">
+                    <input type="file" class="form-control">
+                </div>
+                <button type="submit" class="addGoodButton btn btn-primary">Save</button>
+                <button type="button" class="clearButton btn btn-secondary">Clear</button>
+            </form>
+        </div>
+
+        <section id="goodsTable"></section>
+
+    </div>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/admin-goods.js"></script>
+</body>
+
+</html>
