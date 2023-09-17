@@ -1,0 +1,52 @@
+$custom-color: #6610f2;
+
+$card-heading-size: 20px;
+
+@mixin flexible() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+         -o-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.bg-navbar-custom {
+    background-color: $green-200;
+}
+
+.hot-sales-color {
+    color: $red-500;
+}
+
+.goods-list {
+    @include flexible();
+    box-sizing: border-box;
+    .card {
+        @include border-radius(15px);
+        background-color:rgb(231, 231, 231);
+        .card-title {
+            text-align: center;
+            font-size: $card-heading-size;
+        }
+        .card-text {
+            font-size: $card-heading-size - 6px;
+        }
+        .card-price {
+            font-size: $card-heading-size * 1.2;
+        }
+        .btn {
+            box-shadow: 6px 6px 6px rgba(0,0,0,0.4);
+            &:hover {
+                box-shadow: 3px 3px 3px rgba(0,0,0,0.62);
+            }
+        }
+    }
+}
